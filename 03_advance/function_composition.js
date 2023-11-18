@@ -2,7 +2,7 @@ const user = { name: "Zahid Ali", age: 25 }
 const compose = (f, g) => x => f(g(x))
 
 const getAge = user => user.age;
-const isAllowedAge = age => age >= 21;
+const isAllowedAge = age => age >= 22;
 
 const isUserAllowedToDrink = compose(isAllowedAge, getAge);
 
