@@ -11,4 +11,4 @@ const calculator = (mathOperation, initialVale, values) => {
     return total;
 }
 
-console.log(calculator(add, 0, [5,4]))
+console.log(calculator(multiply, 1, [5,4]))
